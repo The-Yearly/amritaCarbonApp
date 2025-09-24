@@ -10,13 +10,13 @@ import { FoodCard } from "./CardVarients/FoodCard";
 import { WaterConsumedCard } from "./CardVarients/WaterConsumed";
 export default function AdminDashboard() {
   const data = [
-    <EnergyCard />,
-    <WasteCard />,
-    <TransportCard />,
-    <GoodsCard />,
-    <FoodCard />,
-    <WaterCard />,
-    <WaterConsumedCard />,
+    <EnergyCard key={1} />,
+    <WasteCard key={2}/>,
+    <TransportCard key={3}/>,
+    <GoodsCard key={4}/>,
+    <FoodCard key={5}/>,
+    <WaterCard key={6}/>,
+    <WaterConsumedCard key={7}/>,
   ];
   return (
     <>
